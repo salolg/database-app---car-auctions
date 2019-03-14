@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <meta charset="UTF-8">
+    <title>dodaj nowy samochód</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+    <style type="text/css">
+        .wrapper{
+            width: 650px;
+            margin: 0 auto;
+        }
+        .page-header h2{
+            margin-top: 0;
+        }
+        table tr td:last-child a{
+            margin-right: 15px;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+     <form name="test" method="post" action="dodaj_samochod.php">
+         <div class="form-group">
+          <label for="value">Podaj id modelu samochodu:</label>
+          <input type="text" class="form-control" id="id_modelu" placeholder="id_modelu" name="id_modelu">
+        </div>
+        <div class="form-group">
+          <label for="value">Podaj wersję modelu samochodu:</label>
+          <input type="text" class="form-control" id="wersja" placeholder="wersja" name="wersja">
+        </div>
+        <div class="form-group">
+          <label for="value">Podaj rok produkcji:</label>
+          <input type="number" class="form-control" id="rok_produkcji" placeholder="rok produkcji" name="rok_produkcji">
+        </div>
+        <div class="form-group">
+          <label for="value">Podaj przebieg:</label>
+          <input type="number" class="form-control" id="przebieg" placeholder="przebieg" name="przebieg">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj id typu silnika:</label>
+          <input type="number" class="form-control" id="id_typ_sil" placeholder="ID typu silnika" name="id_typ_sil">
+        </div>
+       
+        <div class="form-group">
+          <label for="value">Podaj pojemność silnika:</label>
+          <input type="text" class="form-control" id="pojemnosc_silnika" placeholder="pojemność silnika" name="pojemnosc_silnika">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj rodzaj skrzyni biegów:</label>
+          <input type="text" class="form-control" id="skrzynia" placeholder="rodzaj skrzyni biegów" name="skrzynia">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj moc:</label>
+          <input type="text" class="form-control" id="moc" placeholder="moc" name="moc">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Czy bezwypadkowy tak - 1/nie - 0:</label>
+          <input type="value" class="form-control" id="bezwypadkowy" placeholder="czy bezwypadkowy" name="bezwypadkowy">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj id koloru:</label>
+          <input type="text" class="form-control" id="kolor" placeholder="id koloru" name="kolor">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj cenę wywoławczą:</label>
+          <input type="text" class="form-control" id="cena" placeholder="cena wywoławcza" name="cena">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj datę zakończenia oferty:</label>
+          <input type="date" class="form-control" id="data" placeholder="data zakończenia" name="data">
+        </div>
+                <div class="form-group">
+          <label for="value">Podaj swoje ID:</label>
+          <input type="text" class="form-control" id="idsprzed" placeholder="id sprzedawcy wystawiającego ofertę" name="idsprzed">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+     
+
+
+
+
+</body>
+</html>

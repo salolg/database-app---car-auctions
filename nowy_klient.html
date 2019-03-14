@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
+  <title>Formularz rejestracyjny</title>
+  </head>
+  <body>
+    <a href="main.html" class="btn btn-primary" role="button" aria-pressed="true" >strona główna</a>
+     <div class="container">
+     <form name="test" method="post" action="nowy_klient.php">
+        <div class="form-group">
+          <label for="value">Podaj imie:</label>
+          <input type="text" class="form-control" id="imie" placeholder="imie" name="imie">
+        </div>
+        <div class="form-group">
+          <label for="value">Podaj nazwisko:</label>
+          <input type="text" class="form-control" id="nazwisko" placeholder="nazwisko" name="nazwisko">
+        </div>
+        <div class="form-group">
+          <label for="value">Podaj ulice:</label>
+          <input type="text" class="form-control" id="ulica" placeholder="ulica" name="ulica">
+        </div>
+        <div class="form-group">
+          <label for="value">Podaj miejscowosc:</label>
+          <input type="text" class="form-control" id="miejscowosc" placeholder="miejscowosc" name="miejscowosc">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj numer domu:</label>
+          <input type="text" class="form-control" id="numer_domu" placeholder="numer domu" name="numer_domu">
+        </div>
+       
+        <div class="form-group">
+          <label for="value">Podaj numer mieszkania:</label>
+          <input type="text" class="form-control" id="numer_mieszkania" placeholder="numer mieszkania" name="numer_mieszkania">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj kod pocztowy:</label>
+          <input type="text" class="form-control" id="kod_pocztowy" placeholder="kod pocztowy" name="kod_pocztowy">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj numer telefonu:</label>
+          <input type="text" class="form-control" id="numer_telefonu" placeholder="numer telefonu" name="numer_telefonu">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj adres email:</label>
+          <input type="text" class="form-control" id="adres_email" placeholder="adres email" name="adres_email">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj pesel:</label>
+          <input type="text" class="form-control" id="pesel" placeholder="pesel" name="pesel">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj nip:</label>
+          <input type="text" class="form-control" id="nip" placeholder="nip" name="nip">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj numer konta:</label>
+          <input type="text" class="form-control" id="konto" placeholder="konto" name="konto">
+        </div>
+
+
+
+        <!-- Podaj imie:<input type="text" name="imie"><br/> -->
+        <!-- Podaj nazwisko:<input type="text" name="nazwisko"><br/> -->
+        <!-- Podaj ulica:<input type="text" name="ulica"><br/> -->
+        <!-- Podaj miejscowosc:<input type="text" name="miejscowosc"> -->
+
+        <!-- Podaj nrdomu:<input type="text" name="numer_domu"><br/> -->
+        <!-- Podaj nrmieszkania:<input type="text" name="numer_mieszkania"><br/> -->
+        <!-- Podaj kod:<input type="text" name="kod_pocztowy"><br/> -->
+        <!-- Podaj numertel:<input type="text" name="numer_telefonu"> -->
+
+        <!-- Podaj email:<input type="text" name="adres_email"><br/> -->
+<!--         Podaj pesel:<input type="text" name="pesel"><br/>
+        Podaj nip:<input type="text" name="nip"><br/>
+        numer konta:<input type="text" name="konto"> -->
+
+        <button type="submit" class="btn btn-default">Submit</button>
+     </form>   
+     </div>
+  </body>
+</html>
+
+
+
+
+
+
+

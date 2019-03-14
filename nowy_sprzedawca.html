@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <meta charset="UTF-8">
+    <title>dodaj nowego sprzedawcę</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+    <style type="text/css">
+        .wrapper{
+            width: 650px;
+            margin: 0 auto;
+        }
+        .page-header h2{
+            margin-top: 0;
+        }
+        table tr td:last-child a{
+            margin-right: 15px;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+     <form name="test" method="post" action="dodaj_sprzedwce.php">
+         <div class="form-group">
+          <label for="value">Podaj imię</label>
+          <input type="text" class="form-control" id="imie" placeholder="imie" name="imie">
+        </div>
+        <div class="form-group">
+          <label for="value">Podaj nazwisko</label>
+          <input type="text" class="form-control" id="nazwisko" placeholder="nazwisko" name="nazwisko">
+        </div>
+        <div class="form-group">
+          <label for="value">Podaj ulicę:</label>
+          <input type="text" class="form-control" id="ulica" placeholder="rok ulica" name="ulica">
+        </div>
+        <div class="form-group">
+          <label for="value">Podaj miejscowość:</label>
+          <input type="text" class="form-control" id="miejscowosc" placeholder="miejscowosc" name="miejscowosc">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj numer domu:</label>
+          <input type="text" class="form-control" id="numer_domu" placeholder="numer domu" name="numer_domu">
+        </div>
+       
+        <div class="form-group">
+          <label for="value">Podaj numer mieszkania:</label>
+          <input type="text" class="form-control" id="numer_mieszkania" placeholder="numer mieszkania" name="numer_mieszkania">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj kod pocztowy:</label>
+          <input type="text" class="form-control" id="kod_pocztowy" placeholder="kod pocztowy" name="kod_pocztowy">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj numer telefonu:</label>
+          <input type="text" class="form-control" id="numer_telefonu" placeholder="numer telefonu" name="numer_telefonu">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj adres email:</label>
+          <input type="text" class="form-control" id="email" placeholder="email" name="email">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj numer PESEL:</label>
+          <input type="text" class="form-control" id="PESEL" placeholder="PESEL" name="PESEL">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj numer NIP:</label>
+          <input type="text" class="form-control" id="NIP" placeholder="NIP" name="NIP">
+        </div>
+        
+        <div class="form-group">
+          <label for="value">Podaj numer konta:</label>
+          <input type="text" class="form-control" id="numer_konta" placeholder="numer konta" name="numer_konta">
+        </div>
+                <div class="form-group">
+          <label for="value">Utwórz hasło:</label>
+          <input type="text" class="form-control" id="haslo" placeholder="hasło dostępu" name="haslo">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+     
+
+
+</form>
+</div>
+
+
+</body>
+</html>
